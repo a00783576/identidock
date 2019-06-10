@@ -6,7 +6,7 @@ import redis
 
 app = Flask(__name__)
 salt = 'UNIQUE SALT'
-default_name = 'Arturo Bloggs'
+default_name = 'Arturo Bloggs Changes'
 cache = redis.Redis(host='redis', port=6379, db=0)
 
 
