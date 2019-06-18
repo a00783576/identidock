@@ -5,6 +5,7 @@ RUN pip install Flask -U
 RUN pip install uWSGI -U
 RUN pip install requests -U
 RUN pip install redis -U
+RUN pip install flask_cors -U
 WORKDIR /app
 COPY app /app
 COPY cmd.sh /
